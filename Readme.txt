@@ -10,7 +10,7 @@ Contents
 5) Interpreting outputs
 
 1) Introduction
-The purpose of the Stock Prediction Tool is to allow the user to forecast equity adjusted closing prices. In my opinion it is very difficult if not impossible to have a single model that can forecast every stock price well. I built this tool with flexibly that allows the tool to choose the right model for every stock the user is interested in forecasting. The tool chooses between a linear regression, a decision tree regression, a KNN and an ensemble model.
+The purpose of the Stock Prediction Tool is to allow the user to forecast equity adjusted closing prices. In my opinion, it is very difficult if not impossible to have a single model that can forecast every stock price well. I built this tool with flexibly that allows the tool to choose the right model for every stock the user is interested in forecasting. The tool chooses between linear regression, a decision tree regression, a KNN and an ensemble model.
 
 Selectable stocks are constrained to the WIKI database on the Quandl data service. This is due to the WIKI database being a free to use database on Quandl. Users interact with the tool through a simple GUI, all results are then stored on disk in a generated folder called 'Results'. 
 
@@ -63,7 +63,7 @@ Note that the input is agnostic to upper and lower case letters. Make sure that 
 4.4) Run Model Button
 Initially the 'Run Model!!!' button is greyed out, it will only selectable once all other inputs have inputted correctly. 
 
-Note in order for a value to be inputted correctly the user, must press Enter once the value is populated in the relevant field.
+Note in order for a value to be inputted correctly the user must press Enter once the value is populated in the relevant field.
 
 5) Interpreting outputs
 
