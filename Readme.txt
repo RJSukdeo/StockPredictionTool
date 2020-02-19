@@ -15,11 +15,11 @@ The purpose of the Stock Prediction Tool is to allow the user to forecast equity
 Selectable stocks are constrained to the WIKI database on the Quandl data service. This is due to the WIKI database being a free to use database on Quandl. Users interact with the tool through a simple GUI, all results are then stored on disk in a generated folder called 'Results'. 
 
 2) Software Requirements
-In this section we will software that is required to compile the stock prediction tool:
+In this section we will cover the software that is required to compile the stock prediction tool:
   - Python 2.7.10
   - Package: numpy
   - Package: matplotlib
-  -	Package: Tkinter
+  - Package: Tkinter
   - Package: sklearn
   - Package: scipy
   - Package: quandl
